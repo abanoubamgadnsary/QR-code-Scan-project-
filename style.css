@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: absolute;
+    width: 1440px;
+    height: 100%;
+    background-color:hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 400px;    
+    padding: 0 10px 0 10px;
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    
+}
+.img-area{
+    margin: 5px auto;
+    width: 380px;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.img-area img{
+width: 350px;
+border-radius: 10px;
+
+
+}
+
+.content{
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 30px;
+}
+
+.content h2{
+    padding: 10px;
+    font-size: 24px;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+.content p{
+    color:hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size: 15px;
+    width: 300px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:600px){
+    body{   
+        width: 550px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container{
+       width: 375px;
+    }
+
+    .img-area{
+        margin: 5px auto;
+        width: 340px;
+        height: 380px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    .img-area img{
+        width: 335px;
+
+        }
+        
+}
